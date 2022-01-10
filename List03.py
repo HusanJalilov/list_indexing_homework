@@ -7,5 +7,5 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
-    s=list1+list2
-    return s
+    answer = list1 + list2
+    return answer
