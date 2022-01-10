@@ -6,4 +6,24 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    i = 0
+    if list1[i] == 0:
+        list1[i] = False
+    
+    i += 1
+    if list1[i] == 0:
+        list1[i] = False
+    
+    i += 1
+    if list1[i] == 0:
+        list1[i] = False
+    
+    i += 1
+    if list1[i] == 0:
+        list1[i] = False
+    
+    i += 1
+    if list1[i] == 0:
+        list1[i] = False
+    
+    return list1
